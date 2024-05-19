@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hii</title>
+        <style>
+           body {
+                
+                justify-content: center;
+                padding: 3rem 0;
+                font-family: "Poppins" , "sans-serif";
+                font-size: 1rem;
+                color: white;
+                background-color: tan; 
+           }
+
+            
+            p {
+            text-align: center;
+            font-size: 32px;
+            font-family: Candara, Oswald;
+            }
+            img {
+            display: block;
+            margin: 0 auto;
+            width: 25%;
+            }
+            </style>
+            </head>
+            <body>
+            <p>Miss moko??</p>
+            <img src="https://media.giphy.com/media/rIFc8qJD19lPG/giphy.gif?cid=790b7611v5cnr2jo6rg338zdsapvoqkof2sgz8si7u3ao2rl&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+            </body>
+            <title>Botões</title>
+            <style>
+            #botao1 {
+            position: fixed;
+            top: 70%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            }
+            #botao2 {
+            position: absolute;
+             left: 39%;
+              top: 68%;
+            }
+            </style>
+            </head>
+            <body>
+            <button id="botao1">YES BBY!</button>
+            <button id="botao2">NO</button>
+            <script>
+            const button2 = document.getElementById('botao2');
+            let left = 40;
+            button2.addEventListener('mouseover', function() {
+              if(left == 40){
+                left = 44;
+              }else{
+                left = 40;
+              }
+              this.style.left = left + '%';
+            });
+            
+            </script>
+            <script>document.getElementById('botao1').addEventListener('click', function() {
+            alert('YAYY THANK U 😍❤️');
+            });
+            </script>
+            </body>
+            
+    </head>
+    
+
+</html>
